@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <item android:title="">
+        <menu />
+    </item>
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_latest"
+            android:icon="@mipmap/icon_latest"
+            android:title="@string/menu_latest" />
+        <item
+            android:id="@+id/nav_category"
+            android:icon="@mipmap/icon_category"
+            android:title="@string/menu_category" />
+        <item
+            android:id="@+id/nav_gifs"
+            android:icon="@mipmap/icon_gifs"
+            android:title="@string/menu_gifs" />
+        <item
+            android:id="@+id/nav_myFavorites"
+            android:icon="@mipmap/icon_heart"
+            android:title="@string/menu_myFavorites" />
+        <item
+            android:id="@+id/nav_rate_app"
+            android:icon="@mipmap/icon_rate_app"
+            android:title="@string/menu_rate_app" />
+        <item
+            android:id="@+id/nav_more_app"
+            android:icon="@mipmap/icon_more_app"
+            android:title="@string/menu_more_app" />
+        <item
+            android:id="@+id/nav_about_us"
+            android:icon="@mipmap/icon_about_us"
+            android:title="@string/menu_about_us" />
+        <item
+            android:id="@+id/nav_setting"
+            android:icon="@mipmap/icon_setting"
+            android:title="@string/menu_setting" />
+        <item
+            android:id="@+id/nav_privacy_police"
+            android:icon="@mipmap/icon_privacy_police"
+            android:title="@string/menu_privacy_police" />
+    </group>
+
+</menu>
